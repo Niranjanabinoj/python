@@ -1,0 +1,25 @@
+import turtle
+p=turtle.Turtle()
+p.speed(3)
+for i in range(4):
+    p.forward(200)
+    p.left(90)
+p.penup()
+p.goto(0,200)
+p.pendown()
+p.goto(100,300)
+p.goto(200,200)
+p.penup()
+p.goto(130,100)
+p.pendown()
+for i in range(4):
+    p.forward(40)
+    p.right(90)
+p.penup()
+p.goto(40,100)
+p.pendown()
+for i in range(4):
+    p.forward(40)
+    p.right(90)
+p.hideturtle()
+turtle.done()
